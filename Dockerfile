@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN yarn install --production
+RUN yarn install --develop
 
 CMD [ "node", "src/index.js" ]
 
